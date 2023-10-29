@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+  background-image: url(https://st4.depositphotos.com/11634452/24348/i/450/depositphotos_243483428-stock-photo-green-grass-field-background-for.jpg);
+}
+#Boneco{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#personagem{
+  width: 80px;
+}
+#foto_teclas{
+width: 150px;
+}
+#aviso{
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 2px;
+  left: 30%;
+  border-radius: 20px;
+}
+#aviso p{
+  font-size: 20px;
+}
+#confirmar_aviso, #troca_nome button{
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  width: 80px;
+}
+#confirmar_aviso:hover, #troca_nome button:hover{
+  background-color: darkblue;
+  cursor: pointer;
+}
+#nome_usuario{
+  color: white;
+  background-color: rgba(25, 25, 25, .5);
+}
+#nome_usuario:hover{
+  cursor: pointer;
+}
+#troca_nome{
+  position: fixed;
+  top: 30%;
+  padding: 15px;
+  border-radius: 20px;
+  gap: 15px;
+  justify-content: center;
+  left: 30%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 200px;
+  height: 150px;
+
+}
+#troca_nome label{
+  text-align: center;
+}
+#caixa_informações{
+  background-color: rgba(25, 25, 25, .5);
+  position: fixed;
+  top: 5px;
+  right: 5px;
+}
+#caixa_informações p{
+  color: white;
+}
